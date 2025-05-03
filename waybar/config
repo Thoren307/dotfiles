@@ -1,0 +1,58 @@
+{
+"include": "~/dotfiles/waybar/.config/waybar/modules.json",
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "bottom",
+"spacing": 6,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 0,
+"margin-left": 0,
+"margin-right": 0,
+
+
+"modules-left": [
+
+	"custom/logo",
+	//"hyprland/workspaces#pacman",
+	"hyprland/workspaces#roman",
+
+
+
+
+	],
+"modules-center": [
+
+    "hyprland/window",
+
+	],
+
+	"clock": {
+        "format": "{:%I:%M}",
+    },
+"modules-right": [
+
+
+
+	"tray",
+
+	"custom/separator#dot-line",
+
+
+
+	"custom/separator#blank_4",
+
+
+    "battery",
+	"clock",
+	"pulseaudio",
+	"backlight",
+	"custom/separator#blank_10"
+
+
+	],
+
+}
+}
